@@ -1,4 +1,4 @@
-# SRE Capstone Terraform 
+# Terraform to Create GKE Cluster and Deploy Events App 
 
 ## To run:
 
