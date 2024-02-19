@@ -14,4 +14,4 @@ gcp_zone_1   = "us-central1-a"
 # Application Name (used in resource names, no spaces.)
 app_name = "events-app-iac"
 
-gke-node-service-account-name = "gke-nodes-sa"
+gke-node-service-account-name = "gke-node-sa"
