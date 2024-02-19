@@ -4,6 +4,11 @@ variable "project_id" {
   description = "GCP Project ID"
 }
 
+variable "gke-node-service-account-name" {
+  type          = string
+  description   = "The name of the service account to use for GKE nodes"
+}
+
 variable "external_image_name" {
   type        = string
   description = "Docker image for external service"
