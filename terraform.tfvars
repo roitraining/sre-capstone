@@ -1,7 +1,9 @@
-# GCP Settings
-project_id          = "events-app-iac" # Enter your Google CLoud project ID here.
+# Change the value of the variable on the 
+# next line to your Google Cloud Project ID
+project_id          = "roigcp-feb2024-user400" 
 
-# Enter you Docker Images
+# Docker Images to deploy
+# Change the 3 image names to your image names
 external_image_name = "coursedemos/dso-external:v1.0"
 internal_image_name = "coursedemos/dso-internal:v1.0"
 db-init_image_name = "coursedemos/dso-db-init:v1.0"
@@ -12,3 +14,4 @@ gcp_zone_1   = "us-central1-a"
 # Application Name (used in resource names, no spaces.)
 app_name = "events-app-iac"
 
+gke-node-service-account-name = "gke-nodes-sa"
