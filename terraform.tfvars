@@ -1,6 +1,6 @@
 # Change the value of the variable on the 
 # next line to your Google Cloud Project ID
-project_id          = "roigcp-feb2024-user400" 
+project_id          = "project-id-here" 
 
 # Docker Images to deploy
 # Change the 3 image names to your image names
